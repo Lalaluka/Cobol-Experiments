@@ -10,7 +10,7 @@ HELLO
        PROCEDURE DIVISION.
        DISPLAY "ENTER N VALUE".
        ACCEPT NUM.
-       IF NUM = 2 OR NUM = 1 OR NUM = 0
+       IF NUM = 1 OR NUM = 0
            DISPLAY NUM " is NOT PRIME"
            STOP RUN
        END-IF.
